@@ -171,4 +171,3 @@ class Rectangle:
             return rect_1
 
         return rect_2
-
