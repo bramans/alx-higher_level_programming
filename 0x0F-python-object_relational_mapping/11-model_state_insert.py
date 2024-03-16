@@ -17,7 +17,7 @@ if __name__ == "__main__":
     )
     engine = create_engine(db_connection_string)
 
-OBOBOB    # Create the required tables if they don't exist
+    # Create the required tables if they don't exist
     Base.metadata.create_all(engine)
 
     # Create a session
